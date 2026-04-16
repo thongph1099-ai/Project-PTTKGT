@@ -1,0 +1,26 @@
+#grid {
+  display: grid;
+  grid-template-columns: repeat(30, 40px);
+  gap: 2px;
+  margin: 20px 0;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  background: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.block {
+  background: black;
+}
+
+.robot {
+  background: red;
+}
+
+.target {
+  background: green;
+}
